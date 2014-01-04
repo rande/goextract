@@ -4,7 +4,7 @@ go:
   - 1.2
 
 install:
-  - apt-get -y install extract
+  - sudo apt-get -y install extract
   - go get github.com/stretchr/testify/assert
 
 script:
